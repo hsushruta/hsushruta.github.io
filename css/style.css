@@ -162,12 +162,16 @@ font-size:25px;
 }
 .iconBox{
 	/*width:1120px;
-	height:160px;*/
+	height:160px;
 	margin-left:100px;
 	margin-right:70px;
 	text-align:center;
 	border:1px solid black;
-	vertical-align: middle;
+	vertical-align: middle;*/
+	width:1120px;
+	height:160px;
+	margin: 0 auto;
+	border:1px solid black;
 }
 .icon{
 	float:left;
