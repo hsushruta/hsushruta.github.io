@@ -66,11 +66,10 @@ margin-right:100px;
 text-align: center;
 background:white;
 margin-top:50px;
-border: 12px double black;
 border-radius:10px;
 box-shadow: 0 0 3px #ddd;
-/*outline-offset:10px;
-outline: 2px solid white;*/
+outline-offset:10px;
+outline: 2px solid white;
 }
 
 #mainHeader{
@@ -155,52 +154,62 @@ font-size:25px;
 }
 .middleBar{
 	width:100%;
-	height:160px;
+	height:auto;
+	/*height:160px;*/
 	background-color:#2980b9;
 	display: inline-block; 
 	float:left;
 }
 .iconBox{
-	/*width:1120px;
-	height:160px;
-	margin-left:100px;
-	margin-right:70px;
-	text-align:center;
-	border:1px solid black;
-	vertical-align: middle;*/
-	width:1120px;
+	width:1130px;
 	height:160px;
 	margin: 0 auto;
-	border:1px solid black;
 }
 .icon{
 	float:left;
 	color: white;
+	margin-top:30px;
+	padding-right:60px;
+}
+.icon img{
+	width:86px;
+	height:101px;
+}
+#host{
 	
+	padding-right: 0;
 }
 .icon img{
 	float: left;
-	
 }
 .icon strong{
 	font-family:Hind-Bold;
 	font-size:27px;
 	position: relative;
 	display: inline;
-	
 }
 .icon p{
 	font-family:Hind-Regular;
-	font-size:17px;
+	font-size:15px;
 	position: relative;
 	margin-top: 0;
 }
 #limited{
-	margin-top:15px;
+	font-size:17px;
+	position: relative;
+	margin-top: 0;
+}
+.body{
+	width:100%;
+	height:510px;
+	background-image: url("../images/background2.png");
+	background-size:cover;
+	float:left;
+	margin-top: 0;
 }
 .mainSection{
 	width: 100%;
-	height:auto;
+	height:200px;
 	float: left;
 	text-align: center;
 	display: inline;
@@ -239,19 +248,24 @@ font-size:25px;
 	float:left;
 }*/
 .secretBox{
-  display:flex;
-  flex-direction:row;
-  justify-content:center;
-  float: left;
-  margin-left:60px
+	width:100%;
+	height:310px;
+	float: left;
+}
+.box{
+	width:1170px;
+	height:310px;
+	margin: 0 auto;
+	margin-top: 20px;
 }
 .secret{
-	border: 2px solid #484848;
 	width:340px;
 	height:300px;
-    margin:auto 20px;
     border-top:none;
-   
+    display: inline-block;
+    float:left;
+    margin-right:20px;
+    border: 2px solid #484848;
 }
 .secret h1{
 	font-family:OpenSans-Bold;
@@ -260,7 +274,6 @@ font-size:25px;
 	margin-top: 0;
 	text-align: center;
 	color: white;
-	
 }
 .secret p{
 	font-family:OpenSans-Regular;
@@ -275,13 +288,13 @@ font-size:25px;
 	float: left;
 	text-align: center;
 	margin: 0 auto;
+	 margin-top:80px;
 }
 .email hr{
 	border:none;
     border-top:1px dashed gray;
     height:6px;
     width:70%;
-    margin-top:50px;
 }
 @font-face {
 	font-family:Hind-Medium;
@@ -297,20 +310,24 @@ font-size:25px;
 }
 .cta{
 	width: 100%;
+	height:150px;
 	text-align: center;
 	display: inline-block;
 	float: left;
 	margin-top: 0;
+	margin: 0 auto;
 }
 #rightarrow{
 	position:relative;
-	top:30px;
-	right:10px;
+	/*top:30px;
+	right:10px;*/
+	margin: 0 auto;
+	top:20px;
 }
 #leftarrow{
 	position:relative;
-	top:30px;
-	left:10px;
+	top:20px;
+	margin: 0 auto;
 }
 .cta button{
 	width:580px;
@@ -349,6 +366,7 @@ font-size:25px;
 	padding-top:30px;
 	margin: 0 auto;
 	float: left;
+	margin-top: 0;
 }
 .disclaimer p{
 	font-family:OpenSans-SemiBold;
@@ -359,31 +377,32 @@ font-size:25px;
 }
 .footer{
 	width: 100%;
-	height:auto;
+	height:60px;
 	background-color:#2980b9; 
 	margin-top: 30px;
 	float: left;
-	padding-top:50px;
-    text-align: center;
 }
 .footer img{
-	margin-left:50px;
+	margin-left:75px;
 	float: left;
+	padding-right:240px;
 	/*margin:0 100px;*/
 }
 .footer p{
 	display: inline;
+	margin-top: 10px;
 }
 #copy{
 	font-family:Hind-Regular;
 	font-size:15px;
 	color: white;
-	margin-right:100px;
+	padding-right:140px;
 }
 #privacy{
 	font-family:Hind-Regular;
 	font-size:15px;
 	color: white;
+	float: right;
 }
 @media only screen and (max-width: 480px),  only screen and (max-device-width: 480px), screen and (max-width: 768px) {
 body{
@@ -414,8 +433,8 @@ margin-top:0;
 #names{
 	font-size: 10px;
 	float: right;
-	margin-top:2px;
-
+	margin-top:40px;
+	margin-right: 0;
 	}
 /*
 #names{
@@ -424,7 +443,7 @@ float:right;
 margin-right:0;
 position: relative;
 }*/
-.m3
+.
 .main {
 background-image: url("../images/background.jpg");
 background-size:cover;
@@ -489,18 +508,24 @@ font-size:13px;
 	float: left;
 	color: white;
 }
-/*
+.iconBox{
+	width:100%;
+	height:auto;
+	margin: 0 auto;
+}
+
 .icon{
 	height:100px;
 	width:auto;
 	margin-top: 10px;
 	margin-left:10px;
 }
+
 .icon img{
-	width:100px;
-	height:90px;
+	width:90px;
+	height:60px;
 	text-align: center;
-}*/
+}
 .middleBar strong{
 	font-family:Hind-Bold;
 	font-size: 15px;
@@ -517,6 +542,11 @@ font-size:13px;
 #limited{
 	margin-top:30px;
 }
+.body{
+	width: 100%;
+	height: auto;
+	float: left;
+}
 .mainSection{
 	width: 100%;
 	height: auto;
@@ -527,8 +557,9 @@ font-size:13px;
 	text-align: center;
 	margin-top:20px;
 }
-.secretBox{
-	flex-direction:column;
+.box{
+	width:100%;
+	height:auto;
 }
 .secret{
 	width:100%;
@@ -557,6 +588,7 @@ font-size:13px;
 .email{
 	width: 100%;
 	height: auto;
+	margin-top:160px;
 }
 .email hr{
 	border:none;
@@ -612,6 +644,8 @@ font-size:13px;
 	width:100%;
 	height:auto;
 	text-align: center;
+	margin-top:0;
+	padding-top: 0;
 
 }
 .disclaimer p{
@@ -621,12 +655,16 @@ font-size:13px;
 	width:100%;
 }
 .footer{
+	height:auto;
 	padding-top:10px;
 	text-align: center;
 	margin: 0 5px 0 5px;
 }
 .footer p{
 	font-size:10px;
+}
+#privacy{
+	margin: 0 auto;
 }
 /*
 #copy{
