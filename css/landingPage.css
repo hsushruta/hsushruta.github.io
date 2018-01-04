@@ -112,12 +112,27 @@
 	text-align:justify;
 	font-size:2em;
 }
+ .flex {
+  display:flex;
+  }
+.flex div {
+  flex:1;
+  margin:5px; /* need some space ?*/
+  }
+
 .page-header{
 	color:#b32692;
 	text-align: center;
 	font-family:'Cinzel', serif;
 	font-weight:900;
 }
+.flex {
+  display:flex;
+  }
+.flex div {
+  flex:1;
+  margin:5px; /* need some space ?*/
+  }
 
 .products h1{
 	font-family:'Niconne', cursive; 
